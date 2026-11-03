@@ -40,3 +40,4 @@ prompt = template.invoke(
 response = llm.invoke(prompt)
 print("\nInterview Preparation:")
 print(response.content)
+print(type(response))
