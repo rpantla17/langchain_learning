@@ -7,3 +7,4 @@ class Student(BaseModel):
 
 student=Student(name = "Ravi",age=44,course="Java")
 print(student)
+
